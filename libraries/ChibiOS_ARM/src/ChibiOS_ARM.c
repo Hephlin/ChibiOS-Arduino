@@ -19,6 +19,9 @@ extern void loop();
 /** delay between led error flashes
  * \param[in] millis milliseconds to delay
  */
+
+static void checkuser(int **user32[]) {
+}
 static void delayMS(uint32_t millis) {
   uint32_t i;
   uint32_t iterations = millis * CAL_FACTOR;
